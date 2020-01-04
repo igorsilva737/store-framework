@@ -5,7 +5,8 @@
       "info-card#button-right",
       "info-card#button-left",
       "flex-layout.row",
-      "shelf"
+      "shelf",
+      "slider-layout#home"
     ]
   },
 
@@ -84,6 +85,10 @@
       }
  /*
   shelf. o bloco shelf está como arquivo separado.
+*/
+
+ /*
+  Slider - carrosel. o bloco slider está como arquivo separado.
 */
 
 }
