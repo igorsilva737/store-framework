@@ -75,7 +75,7 @@
 
   "sku-selector":{
     "props":{
-      "initialSelection":"empty",
+      "initialSelection":"Enum",
       "showVariationsLabels":true,
       "showVariationsErrorMessage":true
     }
