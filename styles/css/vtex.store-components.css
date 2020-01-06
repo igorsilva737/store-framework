@@ -33,3 +33,7 @@
       margin: 0 auto;
       padding: 0;
   }
+
+  .imageElement--landingbanner{
+      min-width: 100%;
+  }
