@@ -2,25 +2,26 @@
     
     "store.custom#landing": {
         "blocks":[
-            "image#landingbanner",
-            "search-result-layout.customQuery"
+            "search-result-layout.customQuery",
+            "image#landingbanner"
+            
         ]
       },
-
-      "image#landingbanner":{
-          "props":{
-              "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
-              "minWidth": 100
-          }
+      "image#landingbanner": {
+        "props": {
+          "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
+          "minWidth": "100%"
+        }
       },
 
       "search-result-layout.customQuery":{
           "props":{
-            "queryField":"Blue Top Retro Camera",
+              "queryField":"Blue Top Retro Camera",
               "orderByField":"OrderByReleaseDateDESC",
               "hideUnavailableItems":true,
               "maxItemsPerPage":8,
               "mapField":"ft"
-          }
+          },
+          "blocks": ["search-result-layout.desktop"]
       }
 }
