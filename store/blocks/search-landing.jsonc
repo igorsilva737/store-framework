@@ -18,11 +18,9 @@
           "props":{
               "orderByField": "OrderByReleaseDateDESC",
               "hideUnavailableItems": true,
-              "facetsBehavior": "Dynamic",
               "maxItemsPerPage": 8,
               "queryField": "Blue Top Retro Camera",
               "mapField": "ft"
-          },
-          "blocks": ["search-result-layout.desktop"]
+          }
       }
 }
