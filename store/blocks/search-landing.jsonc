@@ -10,7 +10,7 @@
       "image#landingbanner":{
           "props":{
               "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
-              "blockClass":"landingbanner"
+              "maxWidth":"100%"
           }
       },
 
