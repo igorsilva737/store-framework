@@ -25,7 +25,7 @@
             "sticky ":"true",
             "fullWidth":"false"
         },
-        "children":[
+        "allowed":[
             "logo",
             "header-spacer",
             "search-bar",
