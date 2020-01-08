@@ -19,20 +19,23 @@
       ]
     },
 
-    "header-row#main":{
-        "props":{
-            "inverted":"true",
-            "sticky ":"true",
-            "fullWidth":"false"
-        },
-        "allowed":[
-            "logo",
-            "header-spacer",
-            "search-bar",
-            "minicart",
-            "login"
-        ]
+    
+    "header-row#main": {
+        "children": [
+          "logo",
+          "header-spacer",
+          "search-bar",
+          "minicart",
+          "login"
+        ],
+      
+        "props": {
+          "sticky": true,
+          "inverted":true,
+          "fullWidth":"false"
+        }
       },
+      
 
 
       "header-row#notification": {
