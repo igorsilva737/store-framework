@@ -1,4 +1,5 @@
 {
+  //HEADER
   "header": {
     "blocks": [
       "header-layout.desktop",
@@ -17,7 +18,8 @@
   "header-layout.desktop": {
     "children": [
       "header-row#notification",
-      "header-row#main"
+      "header-row#main",
+      "header-row#menu"
     ]
   },
 
@@ -55,6 +57,7 @@
 
   "header-row#main-mobile": {
     "children": [
+      "drawer",
       "logo",
       "header-spacer",
       "minicart",
@@ -94,6 +97,15 @@
       "text": "**Free Shipping on orders over $50**",
       "textPosition": "CENTER"
     }
+  },
+
+  //MENU
+  "header-row#menu": {
+    "children": [
+      "header-spacer",
+      "vtex.menu@2.x:menu#categories",
+      "header-spacer"
+    ]
   }
 
 }
