@@ -12,9 +12,23 @@
       }
    },
 
+  
 
    //submenu#major
-  
+   "menu-item#major-appliances":{
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Major Appliances",
+        "text": "Major Appliances"
+      }
+    },
+    "blocks":["vtex.menu@2.x:submenu#major"]
+  },
 
    "vtex.menu@2.x:submenu#major":{
     "children":[
