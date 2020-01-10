@@ -13,9 +13,8 @@
    },
 
   
-
    //submenu#major
-   "menu-item#major-appliances":{
+   "menu-item#major-appliances": {
     "props": {
       "type": "custom",
       "highlight": false,
@@ -23,19 +22,17 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Major Appliances",
-        "text": "Major Appliances"
-      }
+        "tagTitle": "Major Appliance",
+        "text": "Major Appliance"
+       }
     },
-    "blocks":["vtex.menu@2.x:submenu#major"]
+    "blocks": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
   },
-
-   "vtex.menu@2.x:submenu#major":{
-    "children":[
+  "vtex.menu@2.x:submenu#major": {
+    "children": [
       "vtex.menu@2.x:menu#major"
     ]
   },
-
   "vtex.menu@2.x:menu#major": {
     "children": [
       "menu-item#refrigerators",
@@ -46,7 +43,8 @@
     "props":{
       "orientation": "vertical"
     }
- },
+  },
+
 
  //submenu small
 
