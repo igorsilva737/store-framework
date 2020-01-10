@@ -17,11 +17,11 @@
    "menu-item#major-appliances": {
     "props": {
       "type": "custom",
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
-        "noFollow": false,
+        "noFollow": true,
         "tagTitle": "Major Appliance",
         "text": "Major Appliance"
        }
@@ -34,7 +34,7 @@
       "vtex.menu@2.x:menu#major"
     ]
   },
-  
+
   "vtex.menu@2.x:menu#major": {
     "children": [
       "menu-item#refrigerators",
