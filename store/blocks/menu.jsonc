@@ -13,58 +13,7 @@
    },
 
 
-   "menu-item#major-appliances":{
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "major appliances",
-        "text": "major appliances"
-      },
-    "children": [
-      "vtex.menu@2.x:submenu#major"
-    ]
-    }
-   },
-
    
-   "menu-item#small-appliances":{
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "small appliances",
-        "text": "small appliancess"
-      },
-    "children": [
-      "vtex.menu@2.x:submenu#small"
-    ]
-   }
-  },
-
-   
-   "menu-item#electronics":{
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "electronics",
-        "text": "electronics"
-      },
-    "children": [
-      "vtex.menu@2.x:submenu#electronics"
-    ]
-   }
-  },
 
    //submenu major
    "vtex.menu@2.x:submenu#major":{
@@ -122,5 +71,58 @@
         "props":{
           "orientation": "vertical"
         }
+     },
+
+     "menu-item#major-appliances":{
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "major appliances",
+          "text": "major appliances"
+        },
+      "blocks": [
+        "vtex.menu@2.x:submenu#major"
+      ]
+      }
+     },
+  
+     
+     "menu-item#small-appliances":{
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "small appliances",
+          "text": "small appliancess"
+        },
+      "blocks": [
+        "vtex.menu@2.x:submenu#small"
+      ]
      }
+    },
+  
+     
+     "menu-item#electronics":{
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "electronics",
+          "text": "electronics"
+        },
+      "blocks": [
+        "vtex.menu@2.x:submenu#electronics"
+      ]
+     }
+    }
  }
