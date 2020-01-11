@@ -13,8 +13,6 @@
    },
 
    //submenu#major
-  
-
   "vtex.menu@2.x:submenu#major": {
     "children": [
       "vtex.menu@2.x:menu#major"
