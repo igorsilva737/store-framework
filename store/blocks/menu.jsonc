@@ -12,9 +12,12 @@
       }
    },
 
-  
    //submenu#major
    "menu-item#major-appliances": {
+    "blocks":
+     [
+       "vtex.menu@2.x:submenu#major"
+      ], // Defining a submenu
     "props": {
       "type": "custom",
       "highlight": true,
@@ -24,9 +27,9 @@
         "noFollow": true,
         "tagTitle": "Major Appliance",
         "text": "Major Appliance"
-       },
-    },
-    "blocks": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
+       }
+    }
+
   },
 
   "vtex.menu@2.x:submenu#major": {
