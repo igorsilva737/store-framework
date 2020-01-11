@@ -19,13 +19,9 @@
        "vtex.menu@2.x:submenu#major"
       ], // Defining a submenu
     "props": {
-      "type": "custom",
-      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
-        "noFollow": true,
-        "tagTitle": "Major Appliance",
         "text": "Major Appliance"
        }
     }
