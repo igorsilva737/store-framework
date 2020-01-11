@@ -26,7 +26,7 @@
         "text": "Major Appliance"
        }
     },
-    "children": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
+    "blocks": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
   },
 
   "vtex.menu@2.x:submenu#major": {
