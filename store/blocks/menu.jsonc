@@ -13,20 +13,7 @@
    },
 
    //submenu#major
-   "menu-item#major-appliances": {
-    "blocks":
-     [
-       "vtex.menu@2.x:submenu#major"
-      ], // Defining a submenu
-    "props": {
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "text": "Major Appliance"
-       }
-    }
-
-  },
+  
 
   "vtex.menu@2.x:submenu#major": {
     "children": [

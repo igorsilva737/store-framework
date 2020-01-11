@@ -6,7 +6,10 @@
       "itemProps": {
         "text": "Major Aplliances"
       }
-    }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#major"
+     ] // Defining a submenu
   },
   "menu-item#small-appliances": {
       "props":
